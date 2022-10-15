@@ -1,6 +1,7 @@
 //Collatz Conjencture
 const collatz = num => {
-    let arr = [num]
+    const randNum = Math.floor(Math.random() * 10000)
+    let arr = [randNum];
     const logic = numb => {
         if (numb % 2 !== 0) {
             return (numb * 3) + 1
@@ -13,10 +14,10 @@ const collatz = num => {
         arr.push(logic(arr[i]))
         i++
     }
-
-    for (const j of arr) {
+    return arr;
+    /*for (const j of arr) {
         console.log(j)
-    }
+    }*/
 }
 
-console.log(collatz(137));
+console.log(collatz());
