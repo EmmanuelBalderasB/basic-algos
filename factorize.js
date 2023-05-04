@@ -1,8 +1,8 @@
-/* const readline = require("readline");
+const readline = require("readline");
 const rl = readline.Interface({
     input: process.stdin,
     output: process.stdout,
-}); */
+});
 
 const factorize = num => {
     let results = [];
@@ -18,10 +18,8 @@ const factorize = num => {
     }
 }
 
-/* rl.question("Enter num:", (answer) => {
+rl.question("Enter num:", (answer) => {
     const result = factorize(answer);
     console.log(result)
     rl.close()
-}); */
-
-module.exports = factorize;
+});

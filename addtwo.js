@@ -32,12 +32,3 @@ var addTwoNumbers = function(l1, l2) {
     const a2 = [9,6,4];
     
     console.log(addTwoNumbers(a1,a2)); 
-    
-    /*  Input: l1 = [2,4,3], l2 = [5,6,4]
-    Output: [7,0,8]
-    Explanation: 342 + 465 = 807. 
-    console.log(`index: i ${i}  i ${i} statement 4: remainder === 0 && (l1[i] + l2[j]) < 10. ${l1[i]} + ${l2[i]}`);
-    console.log(`index: i ${i}  i ${i} statement 3: remainder !== 0 && (l1[i] + l2[j]) < 10. ${l1[i]} + ${l2[i]}`);
-    console.log(`index: i ${i}  i ${i} statement 2: remainder !== 0 && (l1[i] + l2[j]) >= 10. ${l1[i]} + ${l2[i]}`);
-    console.log(`index: i ${i}  i ${i} statement 1: remainder === 0 && (l1[i] + l2[j]) >= 10. ${l1[i]} + ${l2[i]}`);
-    */

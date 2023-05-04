@@ -48,25 +48,4 @@ for (let i = 1; i < 200; i++) {
     sorted.push(i);
 }
 
-// recursiveSearch(39, sorted, 0, sorted.length);
-
-// iterativeSearch(35, sorted);
-
-/* const search = (target, arr, start, end) => {
-    if (end < start) {
-        return -1;
-    }
-    let mid = Math.floor((start + end) / 2);
-    if (arr[mid] === target) {
-        console.log(`Found at index ${arr[mid]}`);
-        return arr[mid];
-    } else if (arr[mid] > target) {
-        console.log(`searchig left of ${arr[mid]}`)
-        return search(target, arr, start, mid-1);
-    } else if (arr[mid] < target) {
-        console.log(`searchig right of ${arr[mid]}`);
-        return search(target, arr, mid + 1, end);
-    }
-}
-
-search(119, sorted, 0, sorted.length); */
+search(119, sorted, 0, sorted.length);

@@ -15,9 +15,6 @@ const collatz = num => {
         i++
     }
     return arr;
-    /*for (const j of arr) {
-        console.log(j)
-    }*/
 }
 
 console.log(collatz());
