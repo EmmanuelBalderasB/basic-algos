@@ -1,8 +1,8 @@
-const readline = require("readline");
+/* const readline = require("readline");
 const rl = readline.Interface({
     input: process.stdin,
     output: process.stdout,
-});
+}); */
 
 const factorize = num => {
     let results = [];
@@ -12,14 +12,16 @@ const factorize = num => {
         }
     }
     if (results.length === 0) {
-        return `${num} is a prime number.`;
+        return false;
     } else if (results.length > 0) {
-        return results;
+        return true;
     }
 }
 
-rl.question("Enter num:", (answer) => {
+/* rl.question("Enter num:", (answer) => {
     const result = factorize(answer);
     console.log(result)
     rl.close()
-});
+}); */
+
+module.exports = factorize;

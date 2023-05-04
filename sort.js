@@ -22,4 +22,4 @@ function getIndexToIns(arr, num) {
     }
   }
   
-  console.log(getIndexToIns([], 1));
+  console.log(getIndexToIns([], 18));
